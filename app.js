@@ -3,7 +3,7 @@ const path = require("node:path");
 const messagesRouter = require("./routes/messagesRouter");
 
 const app = express();
-const PORT = 3000;
+const PORT = 8000;
 
 app.use(express.urlencoded({ extended: true }));
 
